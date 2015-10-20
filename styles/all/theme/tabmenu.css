@@ -1,0 +1,130 @@
+/*##################################*/
+/* javascript disabled (not loaded) */
+/*##################################*/
+
+/* whole tabbed menu wrapper */
+.tabmenu {
+
+}
+
+/* wraps a set of tab (title and content) */
+.tab {
+
+}
+
+/* wraps the tab title */
+.tabtitle {
+
+}
+
+/* wraps the tab content */
+.tabcontent_top {
+background: url(images/tabcontent_top.jpg) repeat-x;
+margin-left: -25px;
+margin-top: -5px;
+margin-right: -25px;
+margin-bottom: 15px;
+height: 9px;
+border-bottom: 1px solid #b4c9db;
+border-left: 0px;
+border-right: 0px;
+border-top: 0px;
+box-shadow: 0px 1px 0px #4797df, 0px 1px 1px #4797df, 0px -0px 0px, -0px -0px 0px;
+-moz-box-shadow: 0px 1px 0px #4797df, 0px 1px 1px #4797df, 0px -0px 0px, -0px -0px 0px;
+}
+.tabcontent {
+
+}
+
+
+/*###########################*/
+/* javascript enabled (live) */
+/*###########################*/
+
+/* tabbed menu wrapper (.tabmenu is now changed to .tabmenu_live)*/
+.tabmenu_live {
+
+}
+
+/* unordered list <ul> with tab titles */
+.tabmenu_ul {
+padding-top: 10px;
+padding-bottom:6px;
+margin-bottom:0px;
+}
+
+/* list item for the unordered list <ul> */
+.tabmenu_ul li {
+display:inline;
+margin-right:35px;
+}
+
+/* clickable tab titles */
+.tabmenu_ul li a,.tabmenu_ul li a:link {
+background: url(images/tabhg.jpg);
+padding:7px;
+padding-left:9px;
+padding-right:9px;
+margin-left: -29px;
+height: 27px;
+border:1px solid #b4c9db;
+box-shadow: 1px 1px 1px #4797df, -1px 1px 1px #4797df, 1px -1px 1px #4797df, -1px -1px 1px #4797df;
+-moz-box-shadow: 0px 1px 0px #4797df, 0px 1px 1px #4797df, 0px -0px 0px, -0px -0px 0px;
+font-size:11px;
+color:#000;
+text-decoration: none;
+}
+
+.tabmenu_ul li a:hover {
+padding:7px;
+padding-left:9px;
+padding-right:9px;
+margin-left: -29px;
+height: 27px;
+border:1px solid #b4c9db;
+box-shadow: 1px 1px 1px #4797df, -1px 1px 1px #4797df, 1px -1px 1px #4797df, -1px -1px 1px #4797df;
+-moz-box-shadow: 0px 1px 0px #4797df, 0px 1px 1px #4797df, 0px -0px 0px, -0px -0px 0px;
+background: #238eeb;
+font-size:11px;
+color:#fff;
+text-decoration: none;
+}
+
+/* current selected tab titles */
+.tabmenu_ul li a.current {
+background: #4797df;
+color:#fff;
+border:1px solid #b4c9db;
+border-bottom: 1px solid #4797df;
+box-shadow: 1px 1px 1px #4797df, -1px 1px 1px #4797df, 1px -1px 1px #4797df, -1px -1px 1px #4797df;
+-moz-box-shadow: 0px 1px 0px #4797df, 0px 1px 1px #4797df, 0px -0px 0px, -0px -0px 0px;
+text-decoration: none;
+}
+
+/* wraps all tab content (after <ul>) */
+.tabcontent_wrapper {
+background: #ffffff;
+border:1px solid #b4c9db;
+box-shadow: 1px 1px 1px #4797df, -1px 1px 1px #4797df, 1px -1px 1px #4797df, -1px -1px 1px #4797df;
+-moz-box-shadow: 0px 1px 0px #4797df, 0px 1px 1px #4797df, 0px -0px 0px, -0px -0px 0px;
+margin-top: -14px;
+margin-left: 1px;
+margin-right: 1px;
+}
+
+/* wraps a single tab content (inside .tabcontent_wrapper) */
+.tabmenu_live .tabcontent {
+line-height:17px;
+padding-left: 25px;
+padding-right: 25px;
+padding-top: 5px;
+padding-bottom: 15px;
+}
+
+/*##################################*/
+/*              other               */
+/*##################################*/
+
+h4 {
+	color: #fff;
+}
