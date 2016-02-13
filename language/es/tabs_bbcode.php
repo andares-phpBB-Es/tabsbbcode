@@ -31,12 +31,11 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ’ » “ ” …
+// â€™ Â» â€œ â€ â€¦
 //
 
 $lang = array_merge(
 	$lang, array(
-	'BBCTBS_TABMENU_HELPLINE'	=> 'Tabmenu: Contenedor de solapas [tabmenu]...[/tabmenu]',
-	'BBCTBS_TAB_HELPLINE'	=> 'Tab: Solapa [tab=Titulo de la solapa]Texto de la solapa[/tab] ',
-	)
-); 
+	'BBCTBS_TABMENU_HELPLINE'	=> 'Tabmenu: Contenedor de pestaÃ±as [tabmenu]...[/tabmenu]',
+	'BBCTBS_TAB_HELPLINE'	=> 'Tab: PestaÃ±a [tab=Titulo de la pestaÃ±a]Texto de la pestaÃ±a[/tab] ',
+)); 
