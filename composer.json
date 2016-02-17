@@ -3,8 +3,8 @@
     "type": "phpbb-extension",
     "description": "This BBCode allows you to place some content inside tabs.",
     "homepage": "http://www.phpbb-es.com",
-    "version": "1.0.0",
-	"time": "2015-10-19",
+    "version": "1.0.1",
+	"time": "2016-02-17",
 	"keywords": ["phpbb", "extension", "tabs", "bbcode"],	
     "license": "GPL-2.0",
     "authors": [
