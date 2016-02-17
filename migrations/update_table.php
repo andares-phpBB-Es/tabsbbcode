@@ -28,8 +28,8 @@ class update_table extends \phpbb\db\migration\migration
 			),
 			'tab' => array(
 				'bbcode_helpline'	=> 'BBCTBS_TAB_HELPLINE',
-				'bbcode_match'		=> '[tab={INTTEXT}]{TEXT}[/tab]',
-				'bbcode_tpl'		=> '<div class="tab"><h4 class="tabtitle">{INTTEXT}</h4><div class="tabcontent"><div class="tabcontent_top"></div>{TEXT}</div></div>',
+				'bbcode_match'		=> '[tab={TEXT1}]{TEXT2}[/tab]',
+				'bbcode_tpl'		=> '<div class="tab"><h4 class="tabtitle">{TEXT1}</h4><div class="tabcontent"><div class="tabcontent_top"></div>{TEXT2}</div></div>',
 			),			
 		);
 
