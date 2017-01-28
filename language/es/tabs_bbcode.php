@@ -37,5 +37,5 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge(
 	$lang, array(
 	'BBCTBS_TABMENU_HELPLINE'	=> 'Tabmenu: Contenedor de pestañas [tabmenu]...[/tabmenu]',
-	'BBCTBS_TAB_HELPLINE'	=> 'Tab: Pestaña [tab=Titulo de la pestaña]Texto de la pestaña[/tab] ',
+	'BBCTBS_TAB_HELPLINE'	=> 'Tab: Pestaña [tab=Título de la pestaña]Texto de la pestaña[/tab] ',
 )); 
