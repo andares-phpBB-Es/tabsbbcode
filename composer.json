@@ -6,7 +6,7 @@
     "version": "1.0.1",
 	"time": "2016-02-17",
 	"keywords": ["phpbb", "extension", "tabs", "bbcode"],	
-    "license": "GPL-2.0",
+    "license": "GPL-2.0-only",
     "authors": [
         {
             "name": "andares",
