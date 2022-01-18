@@ -1,5 +1,5 @@
 services:
-    phpbbes.tabsBbcode.listener:
-        class: phpbbes\tabsBbcode\event\listener
+    phpbbes.tabsbbcode.listener:
+        class: phpbbes\tabsbbcode\event\listener
         tags:
             - { name: event.listener }
