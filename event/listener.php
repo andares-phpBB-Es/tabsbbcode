@@ -5,7 +5,7 @@
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
 
-namespace phpbbes\tabsBbcode\event;
+namespace phpbbes\tabsbbcode\event;
 
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 
@@ -32,10 +32,9 @@ class listener implements EventSubscriberInterface
 	{
 		$lang_set_ext = $event['lang_set_ext'];
 		$lang_set_ext[] = array(
-			'ext_name' => 'phpbbes/tabsBbcode',
+			'ext_name' => 'phpbbes/tabsbbcode',
 			'lang_set' => 'tabs_bbcode',
 		);
 		$event['lang_set_ext'] = $lang_set_ext;
 	}
 }
-
