@@ -5,7 +5,7 @@
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
 
-namespace phpbbes\tabsBbcode\migrations;
+namespace phpbbes\tabsbbcode\migrations;
 
 class update_table extends \phpbb\db\migration\migration
 {
@@ -34,7 +34,7 @@ class update_table extends \phpbb\db\migration\migration
 		);
 
 		global $db, $request, $user;
-		$acp_manager = new \phpbbes\tabsBbcode\includes\acp_manager($db, $request, $user, $this->phpbb_root_path, $this->php_ext);
+		$acp_manager = new \phpbbes\tabsbbcode\includes\acp_manager($db, $request, $user, $this->phpbb_root_path, $this->php_ext);
 		$acp_manager->install_bbcodes($bbcode_data);
 	}
 }
