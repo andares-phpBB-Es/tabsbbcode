@@ -5,7 +5,7 @@
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
 
-namespace phpbbes\tabsBbcode\includes;
+namespace phpbbes\tabsbbcode\includes;
 
 /**
 * Copied from VSEphpbb's extension
